@@ -1,4 +1,4 @@
-# Cleaned data dictionary - version 1.0.0
+# Cleaned data dictionary - version 1.0.1
 
 Storage types below are inferred on CSV reload; dates and nullable features require explicit parsing. Blank fields represent missing or inapplicable information.
 
