@@ -2,14 +2,14 @@
   "23L_2528_A2_netflix_cleaned.csv": {
     "sha256": "5b22ac67471051e28463675210b6f4af77e77ebdd969126a9c11c47b1579642d",
     "bytes": 6064130,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "rows": 8807,
     "columns": 38
   },
   "23L_2528_A2_supermarket_cleaned.csv": {
     "sha256": "7609d9bb8f952c7c7339747c97e11f1a782069d523df92a308bc1b17ee61fe66",
     "bytes": 217245,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "rows": 1000,
     "columns": 27
   }

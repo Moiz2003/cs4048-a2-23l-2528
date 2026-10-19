@@ -2,14 +2,14 @@
 
 Abul Moiz Ahmed · 23L-2528 · BCS-7A · FAST-NUCES Lahore
 
-Published **19 October 2026**, version **1.0.1**. These historical datasets are the starting point for Assignment 3 (feature selection and dimensionality reduction).
+Published **19 October 2026**, version **1.0.2**. These historical datasets are the starting point for Assignment 3 (feature selection and dimensionality reduction).
 
 | Dataset | Rows | Columns | Version |
 |---|---:|---:|---|
-| [23L_2528_A2_netflix_cleaned.csv](23L_2528_A2_netflix_cleaned.csv) | 8,807 | 38 | 1.0.1 |
-| [23L_2528_A2_supermarket_cleaned.csv](23L_2528_A2_supermarket_cleaned.csv) | 1,000 | 27 | 1.0.1 |
+| [23L_2528_A2_netflix_cleaned.csv](23L_2528_A2_netflix_cleaned.csv) | 8,807 | 38 | 1.0.2 |
+| [23L_2528_A2_supermarket_cleaned.csv](23L_2528_A2_supermarket_cleaned.csv) | 1,000 | 27 | 1.0.2 |
 
-Use the immutable [1.0.1 release](https://github.com/Moiz2003/cs4048-a2-23l-2528/releases/tag/1.0.1), not a moving branch, when reproducing this submission. The CSV bytes in the release match those submitted in Assignment2_23L_2528.zip. [Data dictionary](DATA_DICTIONARY.md) · [Machine-readable manifest](manifest.json).
+Use the immutable [1.0.2 release](https://github.com/Moiz2003/cs4048-a2-23l-2528/releases/tag/1.0.2), not a moving branch, when reproducing this submission. The CSV bytes in the release match those submitted in Assignment2_23L_2528.zip. [Data dictionary](DATA_DICTIONARY.md) · [Machine-readable manifest](manifest.json).
 
 ## Original sources
 
@@ -37,7 +37,7 @@ The submitted notebook embeds losslessly compressed original CSV bytes and check
 8. Preserve raw addition-year minus release-year gap. Flag 14 negatives and exclude only those values from release_to_addition_gap_years. Missing dates also yield missing gaps; no title is dropped.
 9. Map maturity labels to descriptive Adult, Teen, General/family, Children and Unrated/unknown groups. This is not a universally equivalent or ordinal maturity scale.
 10. Retain plausible extreme runtimes, season counts and years after IQR and record inspection.
-11. In version 1.0.1, replace 284 U+2014 em dashes in description text with ASCII hyphens at the student's request. This is a formatting change, not an error correction; the notebook's embedded original source bytes are unchanged.
+11. In version 1.0.2, replace 284 U+2014 em dashes in description text with ASCII hyphens at the student's request. This is a formatting change, not an error correction; the notebook's embedded original source bytes are unchanged.
 
 ## Supermarket cleaning
 
@@ -54,7 +54,7 @@ CSV does not retain Python types: parse date/datetime fields explicitly, read ID
 
 ## Version preservation
 
-Version 1.0.1 is fixed. The previous 1.0.0 release remains available unchanged. Version 1.0.1 changes only Netflix description punctuation and the related documentation/version identifiers; the supermarket CSV is unchanged. Any later corrections must use a new version/tag and a documented changelog; do not replace or delete either release before grading completes. The public repository must remain accessible through grading. Work proceeds from development on feat/* or bugfix/* branches, with pull requests to development, and a tagged production release on master.
+Version 1.0.2 is fixed. The previous 1.0.0 release remains available unchanged. Version 1.0.2 changes only Netflix description punctuation and the related documentation/version identifiers; the supermarket CSV is unchanged. Any later corrections must use a new version/tag and a documented changelog; do not replace or delete either release before grading completes. The public repository must remain accessible through grading. Work proceeds from development on feat/* or bugfix/* branches, with pull requests to development, and a tagged production release on master.
 
 ## Submitted CSV checksums
 
@@ -65,4 +65,4 @@ Version 1.0.1 is fixed. The previous 1.0.0 release remains available unchanged. 
 
 ## Validation
 
-The full notebook executes 38 code cells with 25 saved figures, checks source checksums, row/key preservation, transformations, formula consistency and CSV round trips. The compulsory four-page PDF contains five insights and a <=150-word handoff for each dataset. Analysis/writing assistance: OpenAI Codex; calculations and outputs are reproducible in the submitted notebook.
+The full notebook executes 38 code cells with 25 saved figures, checks source checksums, row/key preservation, transformations, formula consistency and CSV round trips. The compulsory four-page PDF contains five insights and a <=150-word handoff for each dataset. Calculations and figures are reproducible in the submitted notebook.
